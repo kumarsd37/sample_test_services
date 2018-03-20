@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/modules.xml
+.idea/sample_test_services.iml
+.idea/workspace.xml
+.idea/libraries/Maven__org_json_json_unknown.xml
+sampleorders/target/classes/com/rev/etl/faker/utils/requestid/RequestId$State.class
+sampleorders/target/generated-sources/
+/sampleorders/target/*/*
+/.idea/
+/sampleorders/target/

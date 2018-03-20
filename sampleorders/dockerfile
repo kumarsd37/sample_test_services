@@ -1,0 +1,5 @@
+FROM anapsix/alpine-java
+RUN mkdir -p /sampleorders
+COPY sample-orders-1.0-SNAPSHOT.jar /sampleorders
+COPY services-api.yml /sampleorders
+RUN java -jar /sampleorders/sample-orders-1.0-SNAPSHOT.jar --server /sampleorders/services-api.yml
