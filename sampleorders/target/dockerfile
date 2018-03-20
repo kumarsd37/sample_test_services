@@ -1,8 +1,0 @@
-FROM anapsix/alpine-java
-WORKDIR /sampleorders
-COPY sample-orders-1.0-SNAPSHOT.jar /sampleorders
-COPY services-api.yml /sampleorders
-RUN mkdir -p /var/log/rev/sampleorders/
-RUN chmod 777 /var/log/rev/sampleorders/
-EXPOSE 25916
-CMD ["java","-jar", "sample-orders-1.0-SNAPSHOT.jar","server" ,"services-api.yml"]
