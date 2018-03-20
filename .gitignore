@@ -8,5 +8,6 @@ sampleorders/target/generated-sources/
 /sampleorders/target/*/*
 /.idea/
 /sampleorders/target/
+/sampleorders/target/*
 /sampleorders/*.iml
 
