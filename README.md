@@ -1,6 +1,6 @@
 # Sample Orders
 
-* sample orders generate the random order xml, which consists of
+* sample orders generate the random order json/xml, which consists of
 shipping address and Line items.
 
 #### How to run
